@@ -1,17 +1,28 @@
-*{ 
+* {
     margin: 0;
     padding: 0;
-    border: 0;
-    font-size: 100%;
-    font-family: 'Poppins', sans-serif;
-   }
+}
+.body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    overflow-x: hidden;
+    color: #777;
+    font-weight: 700;
+    text-size-adjust: 100%;
+
+}
 .container {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: space-evenly;
+    
 }
-#nav{
+.contain-nav{
+    width: 60%;
+}
+.nav {
     width: 20%;
     height: 570px;
     background-color: #4A63E7;
@@ -21,53 +32,103 @@
     padding: 30px;
     display: inline-block;
     position: sticky;
+    position: sticky;
     top: 40px !important;
     transition: all 1s;
 }
-#nav .logo img{
-    width: 70px;
-    height: 70px;
+
+.nav img {
     border-radius: 50%;
-    margin-bottom: 25px;
 }
-#nav .name a{
-    text-decoration: none;
-    color: white;
+
+.my-name {
+    display: block;
     font-family: 'Poppins', sans-serif;
-    font-weight:700 ;
     font-size: 28px;
+    color: white;
+    text-decoration: none;
     margin-top: 0.8em;
-} 
-#nav p{
-    color: white;
+    font-weight: 700;
+}
+
+.nav p {
+    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
-} 
-#nav ul li.home {
-    display: flex;
     color: white;
+    font-weight: 600;
+    margin-top: 7px;
+}
+
+.ul-1 {
+    width: 100%;
+    list-style-type: none;
+}
+
+.ul-1 li {
+    width: 50%;
+    height: 25px;
     margin-top: 13px;
+    
 }
-#nav ul li i {
-    padding-right: 10px;
+
+.list-nav {
+    text-decoration: none;
+    display: block;
 }
-#nav .social-icon li {
-    display: inline-block;
-    border-radius: 50%;
-    background-color: #FF5959;
-    padding: 8px;
-    height: 18px;
-    width: 18px;
-    text-align: center;
-    cursor: pointer;
+
+.list-nav i {
+    font-size: 14px;
+    display: inline;
+    color: white;
 }
-#nav .social-icon{
+
+.list-nav p {
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.nav .icon {
     list-style-type: none;
     position: absolute;
     bottom: 50px;
     left: 25px;
 }
-#nav .social-icon .icon a{
-    text-decoration: none;
-    color: white;
+
+.nav .icon li {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #FF5959;
+    padding: 8px;
+    margin-left: 5px;
+    height: 18px;
+    width: 18px;
     text-align: center;
+    cursor: pointer;
+}
+
+.nav .icon li a {
+    text-decoration: none;
+    
+}
+
+.nav .icon li a i {
+    color: white;
+    font-size: 14px;
+}
+
+.nav .icon li:hover {
+    background-color: white;
+}
+
+.nav .icon li:hover .sub-icon {
+    color: red;
+}
+.home a{
+    transition: all 1s;
+}
+.ul-1 li:hover a{
+    margin-left: 10px;
 }
