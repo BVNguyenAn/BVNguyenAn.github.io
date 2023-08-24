@@ -3,5 +3,71 @@
     padding: 0;
     border: 0;
     font-size: 100%;
+    font-family: 'Poppins', sans-serif;
    }
-  
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+#nav{
+    width: 20%;
+    height: 570px;
+    background-color: #4A63E7;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: none;
+    padding: 30px;
+    display: inline-block;
+    position: sticky;
+    top: 40px !important;
+    transition: all 1s;
+}
+#nav .logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+#nav .name a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight:700 ;
+    font-size: 28px;
+    margin-top: 0.8em;
+} 
+#nav p{
+    color: white;
+    font-size: 12px;
+} 
+#nav ul li.home {
+    display: flex;
+    color: white;
+    margin-top: 13px;
+}
+#nav ul li i {
+    padding-right: 10px;
+}
+#nav .social-icon li {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #FF5959;
+    padding: 8px;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+#nav .social-icon{
+    list-style-type: none;
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+}
+#nav .social-icon .icon a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
