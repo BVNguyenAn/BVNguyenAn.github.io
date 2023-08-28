@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 .body{
     font-family: 'Open Sans', sans-serif;
@@ -131,4 +132,86 @@
 }
 .ul-1 li:hover a{
     margin-left: 10px;
+}
+.boxes .box{
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: #4A63E7;
+    position: relative;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+}
+.box1 {
+    min-height: 675px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+}
+.subbox1{
+    width: 80%; 
+    color: white;
+}
+.subbox1 h1{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.subbox1 p{
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+.subbox1 #viewbtn {
+    background-color: #FF5959;
+    height: 47px;
+    width: 184px;
+    border: none;
+    border-radius:30px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    top: 0px;
+    position: relative;
+}
+.subbox1 #viewbtn i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.subbox1 #hirebtn{
+    background-color: #4A63E7;
+    border: white solid 1px;
+    color: white;
+    margin-left: 20px;
+    height: 47px;
+    width: 150px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius:30px;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+}
+.subbox1 #hirebtn i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.subbox1 button {
+    transition: all 0.5s;
+}
+.subbox1 #viewbtn:hover{
+    top: -4px;
+    box-shadow: 0px 6px 20px 0 rgba(0, 0, 0, 0.4);
+    background-color: white;
+    color:#FF5959 ;
+}
+.subbox1 #hirebtn:hover{
+    top: -4px;
+    box-shadow: 0px 6px 20px 0 rgba(0, 0, 0, 0.4);
+    background-color: white;
+    color:black ;
 }
