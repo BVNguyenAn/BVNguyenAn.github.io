@@ -292,6 +292,9 @@
     cursor: pointer;
     font-weight: 600;
     font-size: 15px;
+    top: 0px;
+    transition: all 0.5s;
+    position: relative;
 }
 .button #hirebtn2 {
     height: 39px;
@@ -300,9 +303,13 @@
     background-color: #4A63E7;
     border: none;
     color: white;
+    cursor: pointer;
     font-weight: 600;
     font-size: 15px;
     margin-left: 20px;
+    top: 0px;
+    transition: all 0.5s;
+    position: relative;
 }
 .button #downloadbtn i{
     font-size: 15px;
@@ -311,4 +318,153 @@
 .button #hirebtn2 i{
     font-size: 15px;
     margin-right: 10px;
+}
+.button #downloadbtn:hover {
+    box-shadow: 0px 6px 20px 0 rgba(0, 0, 0, 0.4);
+    top: -4px;
+    background-color: #4A63E7;
+}
+.button #hirebtn2:hover{
+    box-shadow: 0px 6px 20px 0 rgba(0, 0, 0, 0.4);
+    top: -4px;
+    background-color: #FF5959;
+}
+.boxes .box-third {
+    background-color: white;
+}
+.box-third .box3 {
+    padding: 65px 40px 60px;
+    width: 700px;
+}
+.para-skill {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.5;
+    font-weight: bold;
+    margin-bottom: 36px;
+    width: 100%;
+}
+.knowledge{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.wordpress-jquery {
+    width: 48%;
+    height: 110px;
+}
+.wordpress {
+    height: 21px;
+    margin-bottom: 15px;
+}
+.wordpress h4 {
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.wordpress span {
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: bold;
+}
+.percent-wordpress{
+    height: 2.5px;
+    background-color: grey;
+    margin-bottom: 40px;
+}
+.wppercent{
+    background-color: red;
+    width: 85%;
+    height: 2.5px;
+
+}
+.jquery{
+        height: 21px;
+        margin-bottom: 15px;
+}
+.jquery h4 {
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.jquery span {
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: bold;
+}
+.percent-jquery{
+    height: 3.5px;
+    background-color: grey;
+}
+.jquerypercent{
+    background-color: red;
+    width: 60%;
+    height: 3.5px;
+}
+.html-sketch {
+    width: 48%;
+    height: 110px;
+}
+.html{
+    height: 21px;
+    margin-bottom: 15px;
+}
+.html h4 {
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.html span {
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: bold;
+}
+.percent-html{
+    height: 2.5px;
+    background-color: grey;
+    margin-bottom: 40px;
+}
+.htmlpercent{
+    background-color: red;
+    width: 90%;
+    height: 2.5px;
+}
+.sketch{
+    height: 21px;
+    margin-bottom: 15px;
+}
+.sketch h4 {
+    float: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.sketch span {
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: bold;
+}
+.percent-sketch{
+    height: 3.5px;
+    background-color: grey;
+}
+.sketchpercent{
+    background-color: red;
+    width: 70%;
+    height: 3.5px;
 }
