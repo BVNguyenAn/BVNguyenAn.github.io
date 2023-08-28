@@ -215,3 +215,100 @@
     background-color: white;
     color:black ;
 }
+.boxes .box-second{
+    background-color: white;
+}
+.box-second .box2{
+    padding: 65px 40px 60px;
+}
+.infomation{
+    display: flex;
+}
+.about{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    width: 100%;
+}
+.about:after {
+    content: "";
+    background-color: #ff5959;
+    border-radius: 25px;
+    display: block;
+    height: 5px;
+    width: 30px;
+    margin-top: 14px;
+    margin-bottom: 70px;
+}
+.second-avatar{
+    width: 28%;
+}
+.second-avatar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.infomation .info .hello {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.info{
+    width: 550px;
+}
+.info .introduce {
+    margin-bottom: 25px;
+}
+.info p{
+    width: 85%;
+    font-size: 14px;
+    color: #777777;
+    word-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 24px;
+}
+.info p span {
+    color: #000000;
+    font-weight: 600;
+}
+.NBLE {
+    display: flex;
+    margin-bottom: 20px;
+}
+.NBLE .name-birth,.NBLE .mail-location{
+    width: 50%;
+}
+.button #downloadbtn{
+    height: 39px;
+    width: 160px;
+    background-color: #FF5959;
+    border-radius: 30px;
+    text-align: center;
+    border: none;
+    transition: all 0.5s;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+}
+.button #hirebtn2 {
+    height: 39px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: #4A63E7;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.button #downloadbtn i{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.button #hirebtn2 i{
+    font-size: 15px;
+    margin-right: 10px;
+}
