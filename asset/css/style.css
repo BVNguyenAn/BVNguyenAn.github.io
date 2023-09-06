@@ -119,6 +119,9 @@
 .ul-1 li:hover a{
     margin-left: 10px;
 }
+.boxes{
+    width: 60%;
+}
 .boxes .box{
     width: 100%;
     margin-bottom: 50px;
@@ -133,7 +136,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 800px;
 }
 .subbox1{
     width: 80%; 
@@ -320,7 +322,6 @@
 }
 .box-third .box3 {
     padding: 65px 40px 60px;
-    width: 700px;
 }
 .para-skill {
     font-size: 14px;
@@ -454,6 +455,11 @@
     width: 70%;
     height: 3.5px;
 }
+.contain-subbox-4{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 .boxfourth{
     display: flex;
     flex-direction: row;
@@ -493,7 +499,6 @@
 }
 .box5 {
     padding: 65px 40px 60px;
-    width: 700px;
 }
 .mainsub5{
     display: flex;
@@ -556,8 +561,7 @@
     background-color: white;
 }
 .box6 {
-    padding: 65px 40px 60px;
-    width: 700px;    
+    padding: 65px 40px 60px;   
     min-height: 760px;
 }
 .entry {
@@ -648,7 +652,6 @@
 }
 .box7 {
     padding: 65px 60px 60px;
-    width: 700px;
 }
 .contain-btn{
     height: 50px;
@@ -676,10 +679,14 @@
     border-radius: 10px;
     margin-bottom: 15px;
 }
-.box7 .contain-img{
+.box7 .contain-img,.row3{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: start;
+    width: 100%;
+    justify-content: space-between;
+}
+.box7 .contain-img{
     margin-top: 20px;
 }
 .contain-items {
@@ -688,7 +695,6 @@
     height: 185px;
     box-sizing: border-box;
     margin-top: 20px;
-    margin-right: 15px;
 }
 .image-item {
     display: inline-block;
@@ -730,16 +736,16 @@
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
 }
-.row1, .row2, .row3{
-    display: flex;
-    flex-direction: row;
-}
 .unseen{
     display: none;
 }
 .button{
+    text-align: center;
+    outline: none;
+    position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .load-btn{
     width: 104px;
@@ -926,7 +932,6 @@
 }
 .box9 {
     padding: 65px 60px 60px;
-    width: 700px;
 }
 .box9 .contain-boxes{
     display: flex;
@@ -1005,7 +1010,7 @@
 .slick-dots li.slick-active button{
     background-color: #ff5959 !important;
 }
-.box10{
+.boxes .boxten{
     padding: 50px 40px 50px;
     box-sizing: border-box;
 }
@@ -1018,4 +1023,100 @@
 }
 .sub-slide{
     width: 100%;
+    margin-right: 10px;
+}
+@media (max-width: 820px){
+    .nav{
+        display: none;
+    }
+    .boxes{
+        width: 100%;
+    }
+    .knowledge{
+        flex-direction: column;
+    }
+    .wordpress-jquery{
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .html-sketch{
+        width: 100%;
+    }
+    .contain-subbox-4{
+        flex-direction: column;
+    }
+    .sub-box4 {
+        width: 100%;
+    }
+    .mainsub5-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainsub5-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sub-box5{
+        width: 80%;
+    }
+    .box7 .contain-img,.row3{
+        justify-content: space-around;
+    }
+    .contain-price {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .price-box{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contain-price .profesional{
+        top: 0;
+    }
+}
+@media (max-width: 640px){
+    .subbox1 h1 {
+        font-size: 36px;
+        line-height: 1em;
+    }
+    .subbox1 p{
+        font-size: 14px;
+    }
+    .subbox1 #hirebtn{
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .infomation {
+        display: flex;
+        flex-direction: column;
+    }
+    .info {
+        width: 100%;
+    }
+    .info p{
+        width: 100%;
+    }
+    .NBLE {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .info p.birth, .info p.mail{
+        width: 112%;
+    }
+    .NBLE p{
+        line-height: 19px;
+    }
+    .button{
+        flex-direction: column;
+    }
+    .button #hirebtn2{
+        margin-left: 0;
+        margin-top: 5px;
+    }
 }
