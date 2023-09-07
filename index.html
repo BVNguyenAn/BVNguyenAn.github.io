@@ -97,6 +97,11 @@
             </footer>
         </div>
         <div class="boxes">
+            <div class="nav-mobile">
+                <label for="check-mobile"><i class="fas fa-bars" onclick="toggleHidden()"></i></label>
+                <img src="/asset/image/download.jpg" alt="avatar" width="40px" height="40px">
+                <a href="#">Bako Doe</a>
+            </div>
             <div class="box" id="box1">
                 <div class="box1">
                 <div class="subbox1">
@@ -369,6 +374,10 @@
                         <a href="#box7" class="btn design">Design</a>
                         <a href="#box7" class="btn video">Video</a>
                     </div>
+                    <select name="tech" id="items" class="type" onchange="typeDisplay()">
+                        <option value="all" id="all">All items</option>
+                        <option value="video" id="video">Video</option>
+                      </select>
                     <div class="contain-img">
                             <div class="contain-items branding creative ">
                                 <a href="#box7">
@@ -676,6 +685,130 @@
                         </div>
                 </div>
             </div>
+            <div class="box boxeleven" id="box11">
+                <div class="box11">
+                    <div class="about">
+                        <h3>Recent posts</h3>
+                    </div>
+                    <div class="contain-subbox11">
+                        <div class="magazine">
+                            <div class="thumb">
+                                <a href="#" class="title-magazine">
+                                    <span>Thoughts</span>
+                                </a>
+                                <a href="#">
+                                    <img src="./asset/image/magazine/1.jpg" alt="" width="250px" height="140px">
+                                </a>
+                            </div>
+                            <h4 class="link-to"><a href="#" class="link-to-a">
+                                The Truth About Design In 3 Minutes
+                            </a></h4>
+                            <ul class="ul-box11">
+                                <li class="date-month">08 April 2019</li>
+                                <li class="my-name-at-magize"><a href="#">Bako Doe</a></li>
+                            </ul>
+                        </div>
+                        <div class="magazine">
+                            <div class="thumb">
+                                <a href="#" class="title-magazine">
+                                    <span>Blogs</span>
+                                </a>
+                                <a href="#">
+                                    <img src="./asset/image/magazine/2.jpg" alt="" width="250px" height="140px">
+                                </a>
+                            </div>
+                            <h4 class="link-to"><a href="#" class="link-to-a">
+                                The Ugly Truth About Design
+                            </a></h4>
+                            <ul class="ul-box11">
+                                <li class="date-month">08 April 2019</li>
+                                <li class="my-name-at-magize"><a href="#">Bako Doe</a></li>
+                            </ul>
+                        </div>
+                        <div class="magazine">
+                            <div class="thumb">
+                                <a href="#" class="title-magazine">
+                                    <span>Tech</span>
+                                </a>
+                                <a href="#">
+                                    <img src="./asset/image/magazine/3.jpg" alt="" width="250px" height="140px">
+                                </a>
+                            </div>
+                            <h4 class="link-to"><a href="#" class="link-to-a">
+                                How To Become Better With UI Design
+                            </a></h4>
+                            <ul class="ul-box11">
+                                <li class="date-month">08 April 2019</li>
+                                <li class="my-name-at-magize"><a href="#">Bako Doe</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box boxtwelve" id="box12">
+                <div class="box12">
+                    <div class="about">
+                        <h3>Get in touch</h3>
+                    </div>
+                    <div class="contain-contact-row">
+                        <div class="label-contact">
+                            <div class="label-contact-pad">
+                                <div class="phone-contact">
+                                    <i class="fas fa-phone contact-icon" aria-hidden="true"></i>
+                                    <div class="infor-contact">
+                                        <h5>Phone</h5>
+                                        <span>+44 1632 960428
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="space-contact">
+                                </div>
+                                <div class="email-contact">
+                                    <i class="far fa-envelope contact-icon" aria-hidden="true"></i>
+                                    <div class="infor-contact">
+                                        <h5>Email address
+                                        </h5>
+                                        <span>hello@bako.com
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="space-contact">
+
+                                </div>
+                                <div class="location-contact">
+                                    <i class="fas fa-map-marker contact-icon" aria-hidden="true"></i>
+                                    <div class="infor-contact">
+                                        <h5>Location</h5>
+                                        <span>West Palm Beach, 4669 Travis Street
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-contact">
+                            <div class="main-contact-pad">
+                                <div class="name-address">
+                                    <div class="name input-name-address">
+                                        <input type="text" placeholder="Your name" class="input-area">
+                                    </div>
+                                    <div class="address input-name-address">
+                                        <input type="text" placeholder="Email address" class="input-area">
+                                    </div>
+                                </div>
+                                <div class="subject">
+                                    <input type="text" placeholder="Subject" class="input-area">
+                                </div>
+                                <div class="message">
+                                    <textarea name="message" id="" cols="30" rows="10" placeholder="Message..." class="input-area"></textarea>
+                                </div>
+                                <div class="sub-mit">
+                                    <button class="btn-submit">Submit Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
         </div>
     </div>
     <script src="/asset/js/index.js"></script>
