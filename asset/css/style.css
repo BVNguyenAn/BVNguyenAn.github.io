@@ -107,6 +107,8 @@
 .nav .icon li a i {
     color: white;
     font-size: 14px;
+    position: relative;
+    top: -2px;
 }
 
 .nav .icon li:hover {
@@ -656,6 +658,7 @@
 }
 .box7 {
     padding: 65px 60px 60px;
+    width: 100%;
 }
 .contain-btn{
     height: 50px;
@@ -688,17 +691,17 @@
     flex-wrap: wrap;
     justify-content: start;
     width: 100%;
-    justify-content: space-between;
 }
 .box7 .contain-img{
     margin-top: 20px;
 }
 .contain-items {
     position: relative;
-    width: 220px;
     height: 185px;
     box-sizing: border-box;
     margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .image-item {
     display: inline-block;
@@ -740,7 +743,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
 }
-.unseen{
+.unseen, .unseen1, .unseen2, .unseen3{
     display: none;
 }
 .box7 .button{
@@ -787,7 +790,7 @@
     flex-direction: row;
 }
 .price-box{
-    width: 237px;
+    width: 33%;
     height: 370px;
     border: #efefef solid 1px;
     border-radius: 10px;
@@ -1307,7 +1310,6 @@
         width: 80%;
     }
     .box7 .contain-img,.row3{
-        justify-content: space-around;
     }
     .contain-price {
         display: flex;

@@ -18,9 +18,13 @@ function moveClass() {
   document.addEventListener('DOMContentLoaded', moveClass);
   function removeUnseenClass() {
     // Get the element that has the `unseen` class.
-    const element = document.querySelector('.unseen');
+    const element1 = document.querySelector('.unseen1');
+    const element2 = document.querySelector('.unseen2');
+    const element3 = document.querySelector('.unseen3');
     // Remove the `unseen` class from the element.
-    element.classList.remove('unseen');
+    element1.classList.remove('unseen1');
+    element2.classList.remove('unseen2');
+    element3.classList.remove('unseen3');
     // Get the button element.
     const button = document.querySelector('.load-btn');
     // Remove the button element from the DOM.
